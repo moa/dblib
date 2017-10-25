@@ -2,5 +2,5 @@ History/
 **/History/
 __Previews
 *.ldb
-debug
-**/debug
+debug.log
+**/debug.log
