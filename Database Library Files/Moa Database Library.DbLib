@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=C:\Users\max\Documents\Moa\dblib\Moa.mdb;Persist Security Info=False
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\max\Documents\Moa\dblib\Moa.mdb;Persist Security Info=False
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Connector
+LastFocusedTable=Capacitor
 [Table1]
 SchemaName=
 TableName=Capacitor
@@ -32,9 +32,6 @@ TableName=Connector
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=115|Description0=495|Library Ref0=140|Footprint Ref0=115|Library Path0=83|Footprint Path0=98|Comment0=115|Datasheet Link0=99|Supplier 10=75|Supplier Part Number 10=142
 [Table3]
 SchemaName=
 TableName=Discrete Semiconductor
@@ -47,36 +44,24 @@ TableName=IC
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=112|Library Ref0=111|Footprint Ref0=133|Library Path0=83|Footprint Path0=98|Description0=629|Comment0=112|Datasheet Link0=99|Supplier 10=75|Supplier Part Number 10=142
 [Table5]
 SchemaName=
 TableName=Misc
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=155|Description0=1314|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|Comment0=293|Datasheet Link0=99|Supplier 10=75|Supplier Part Number 10=142
 [Table6]
 SchemaName=
 TableName=Passive
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=123|Description0=422|Library Ref0=80|Footprint Ref0=120|Library Path0=83|Footprint Path0=98|Supplier 10=75|Supplier Part Number 10=142|Value0=85|Package0=65|Rating0=57|Tolerance0=72|Manufacturer0=93|Parameter 10=83
 [Table7]
 SchemaName=
 TableName=Resistor
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=108|Description0=169|Library Ref0=77|Footprint Ref0=110|Library Path0=83|Footprint Path0=98|Supplier 10=75|Supplier Part Number 10=142|Value0=52|Package0=65|Rating0=57|Tolerance0=72|Manufacturer0=93
 [FieldMap1]
 Options=FieldName=Capacitor.Part Number|TableNameOnly=Capacitor|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
